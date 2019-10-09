@@ -1,0 +1,48 @@
+.container{
+  margin: 20px;
+  width: 90%;
+}
+body{
+  color: darkgray;
+ background-image: url('fundoMusica.jpg');
+}
+h1{
+  text-align: center;
+}
+#conteudo{
+  background-color: transparent;
+  color: antiquewhite;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  height: auto;
+  width: 650px
+ 
+}
+
+@keyframes move{
+  from{
+    opacity:0;
+    transform: translateX(-35%)
+  }
+  to{
+    opacity: 1;
+    transform: translateX(0%)
+  }
+}
+
+form{
+  animation-name:move;
+  animation-duration: 1s;
+}
+
+.btn-primary{
+  background-color: transparent;
+}
+
+.form-control{
+  background-color:transparent;
+  box-shadow: 2px 2px 5px antiquewhite;
+}
+
+

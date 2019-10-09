@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Buscar letra de música</title>
+  
+  <link rel="stylesheet" href="src/Estilo/bootstrap.css">
+  <link rel="stylesheet" href="src/Estilo/Style.css">
+</head>
+
+<body>
+  
+  <h1>Buscar Música</h1>
+  <div class="container">
+      <form id="lyric-form">
+        <label for="artist">Artista</label>
+         <input class="form-control" type="text" id="artist" placeholder="Artista" >
+      
+         <label for="music">Musica</label>
+         <input class="form-control" type="text" id="music" placeholder="Musica" >
+     
+        <div id="botao">
+          
+          <button type="submit" class="btn btn-primary mt-2" >Vamos Cantar</button>
+     </div>
+   </form>
+    </div>
+    
+    <div id="content">
+     <div  class="row justify-content-center">
+          <pre class="mt-6" id="lyrics"></pre>
+      </div>
+    </div>
+  <script src="src/Script/Index.js"></script>
+  
+</body>
+</html>
